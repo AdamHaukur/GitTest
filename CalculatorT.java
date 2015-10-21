@@ -9,7 +9,7 @@ public class CalculatorT {
     	Scanner in = new Scanner(System.in);
 
       	System.out.println("Welcome two number calculator");
-      	System.out.println("Choose +, -");
+      	System.out.println("Choose + or - then press enter");
 
       	char ops = in.next().charAt(0);
         number1 = in.nextInt();
@@ -25,7 +25,7 @@ public class CalculatorT {
       	}
       	
       	else{
-      		System.out.println("ERROR NO OPS INPUR");
+      		System.out.println("ERROR");
       	}
 
     }
