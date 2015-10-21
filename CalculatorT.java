@@ -9,7 +9,7 @@ public class CalculatorT {
     	Scanner in = new Scanner(System.in);
 
       	System.out.println("Welcome two number calculator");
-      	System.out.println("Choose + or - then press enter");
+      	System.out.println("Choose + , -  or *  then press enter");
 
       	char ops = in.next().charAt(0);
         number1 = in.nextInt();
@@ -23,6 +23,9 @@ public class CalculatorT {
       	else if(ops == '-'){
       		System.out.println(minus(number1,number2));
       	}
+        else if(ops == '*'){
+          System.out.println(mult(number1,number2));
+        }
       	
       	else{
       		System.out.println("ERROR");
@@ -40,6 +43,11 @@ public class CalculatorT {
 
       		double minusNumbers = a - b;
       		return minusNumbers;
+    }
+     public static double mult(double a, double b){
+
+          double multNumbers = a * b;
+          return multNumbers;
     }
 
 }
