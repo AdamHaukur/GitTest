@@ -1,2 +1,2 @@
 # GitTest
-Java Calculator Test
+Java Calculator Test.
